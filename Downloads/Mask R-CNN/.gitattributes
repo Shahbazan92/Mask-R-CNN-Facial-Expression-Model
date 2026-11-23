@@ -1,0 +1,17 @@
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.keras" filter=lfs diff=lfs merge=lfs -text
+lfs filter=lfs diff=lfs merge=lfs -text
+track filter=lfs diff=lfs merge=lfs -text
+*.ptgit filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pthgit filter=lfs diff=lfs merge=lfs -text
+models/big_model.pth filter=lfs diff=lfs merge=lfs -text
+Mask[[:space:]]R-CNN[[:space:]]Facial[[:space:]]Expression filter=lfs diff=lfs merge=lfs -text
+*.hdf5git filter=lfs diff=lfs merge=lfs -text
+*.onnxgit filter=lfs diff=lfs merge=lfs -text
+*.kerasgit filter=lfs diff=lfs merge=lfs -text
+*.pbgit filter=lfs diff=lfs merge=lfs -text
+*.zipgit filter=lfs diff=lfs merge=lfs -text
+*.pklgit filter=lfs diff=lfs merge=lfs -text
+*.weights filter=lfs diff=lfs merge=lfs -text
+*.h5git filter=lfs diff=lfs merge=lfs -text
