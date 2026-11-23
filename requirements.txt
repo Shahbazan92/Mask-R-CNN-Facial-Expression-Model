@@ -2,5 +2,9 @@ streamlit>=1.40,<2
 torch
 torchvision
 torchaudio
-Pillow>=10,<12
-numpy<2
+opencv-python-headless
+numpy
+Pillow
+matplotlib
+pandas
+scikit-learn
