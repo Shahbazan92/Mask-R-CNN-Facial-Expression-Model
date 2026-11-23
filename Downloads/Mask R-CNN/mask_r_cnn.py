@@ -8,20 +8,6 @@ Original file is located at
 """
 
 import os
-
-
-
-# Verify path existence and list contents
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-dataset_path = os.path.join(BASE_DIR, "Facial Expression DataSet")
-
-if os.path.exists(dataset_path):
-    print("Dataset found:", dataset_path)
-else:
-    print("Dataset not found:", dataset_path)
-
-import os
 from PIL import Image
 
 # Base directory for our dataset
