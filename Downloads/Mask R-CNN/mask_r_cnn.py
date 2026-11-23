@@ -12,17 +12,14 @@ import os
 
 
 # Verify path existence and list contents
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+dataset_path = os.path.join(BASE_DIR, "Facial Expression DataSet")
+
 if os.path.exists(dataset_path):
-    print("Successfully accessed the nested test folder!")
-    print("Contents (expression classes):")
-    display(os.listdir(dataset_path))
+    print("Dataset found:", dataset_path)
 else:
-    print(f"Path not found: {dataset_path}")
-    # Fallback to display whatever is in the first test folder
-    fallback_path = '/content/drive/MyDrive/Facial Expression DataSet/test'
-    if os.path.exists(fallback_path):
-        print(f"Contents of '{fallback_path}':")
-        display(os.listdir(fallback_path))
+    print("Dataset not found:", dataset_path)
 
 import os
 from PIL import Image
