@@ -1,5 +1,6 @@
 streamlit>=1.40,<2
-torch==2.14.1
-torchvision==0.29.1
+torch
+torchvision
+torchaudio
 Pillow>=10,<12
 numpy<2
