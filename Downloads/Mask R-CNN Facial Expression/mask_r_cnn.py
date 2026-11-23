@@ -11,10 +11,10 @@ from google.colab import drive
 import os
 
 # Mount Google Drive
-drive.mount('/content/drive', force_remount=True)
+# drive.mount('/content/drive', force_remount=True)
 
 # Define the correct path to the nested dataset's test folder
-dataset_path = '/content/drive/MyDrive/Facial Expression DataSet/test/test'
+# dataset_path = '/content/drive/MyDrive/Facial Expression DataSet/test/test'
 
 # Verify path existence and list contents
 if os.path.exists(dataset_path):
